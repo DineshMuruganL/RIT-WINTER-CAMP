@@ -1,0 +1,14 @@
+//ADD ELEMENT IN GIVEN ARRAY
+#include<stdio.h>
+void main()
+{
+int a[10],i,b,sun=0;
+printf("Enter the size of array\n");
+scanf("%d",&b);
+printf("Enter the element\n");
+for(i=0;i<b;i++)
+scanf("%d",&a[i]);
+for(i=0;i<b;i++)
+sun=sun+a[i];
+printf("added element in array is %d\n",sun);
+}
