@@ -1,0 +1,19 @@
+//ARRAY OPERATION
+#include<stdio.h>
+void main()
+{
+int a[10],b[10],c[10],d,i;
+printf("Enter your size  matrixces \n");
+scanf("%d",&d);
+printf("enter the element of a matrix\n");
+for(i=0;i<d;i++)
+scanf("%d",&a[i]);
+printf("enter the element of b matrix\n");
+for(i=0;i<d;i++)
+scanf("%d",&b[i]);
+for(i=0;i<d;i++)
+c[i]=a[i]+b[i];
+printf("addition of value is \n");
+for(i=0;i<d;i++)
+printf("%d",c[i]);
+}
