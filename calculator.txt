@@ -1,0 +1,39 @@
+//CALCULATOR IN CASE
+#include<stdio.h>
+void main()
+{
+int a,b,c,d;
+again:
+printf("CALCULATOR PROGRAM=:\n");
+printf("1.Addition 2.Subtraction 3.Multipilication 4.Division 0.Exit\n");
+printf("Enter the a b values\n");
+scanf("%d%d",&a,&b);
+printf("Enter your choice\n");
+scanf("%d",&d);
+switch(d)
+{
+case 1:
+     c=a+b;
+     printf("Addtion values are %d\n",c);
+     goto again;
+     break;
+case 2:
+     c=a-b;
+     printf("Subtraction values are %d\n",c);
+      goto again;
+      break;
+case 3:
+     c=a*b;
+     printf("Multiplication values are %d\n",c);
+     goto again;
+     break;
+case 4:
+     c=a/b;
+     printf("Division values are %d\n",c);
+     goto again;
+     break;
+default:
+   printf("Enter the valid choice\n");
+
+}
+}
