@@ -1,0 +1,17 @@
+//AREA OF TRINGLE AND CIRCLE AND CIRUM
+#include<stdio.h>
+void main()
+{
+int h,b,c;
+float r,d,e;
+printf("enter traingle h and b value\n");
+scanf("%d%d",&h,&b);
+printf("enter circle r value\n");
+scanf("%f",&r);
+c=(b*h)/2;
+printf("area of tringle is %d:",c);
+e=2*3.14*r;
+d=3.14*(r*r);
+printf("area of circle is %f:",d);
+printf("circum of circle is %f:",e);
+}
