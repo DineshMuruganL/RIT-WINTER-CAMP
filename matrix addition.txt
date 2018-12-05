@@ -1,0 +1,39 @@
+//MATRIX ADDITION
+#include<stdio.h>
+void main()
+{
+int a[10][10],b[10][10],c[10][10],i,j,n,m;
+printf("Enter the size of the row and coloum\n");
+scanf("%d%d",&n,&m);
+printf("Enter the A matrix elements\n");
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}
+printf("Enter the B matrix elements\n");
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+scanf("%d",&b[i][j]);
+}
+}
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+c[i][j]=a[i][j]+b[i][j];
+}
+}
+printf("ADDITION OF C MATRIX IS\n");
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+printf("%d\n",c[i][j]);
+}
+}
+}
