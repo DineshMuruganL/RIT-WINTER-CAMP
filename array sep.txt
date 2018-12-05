@@ -1,0 +1,26 @@
+//SEPARATE EVEN AND ODD IN GIVEN ARRAY
+#include<stdio.h>
+main()
+{
+int a[10],e[10],o[10],ec=0,oc=0,i;
+printf("enter the numbers\n ");
+for(i=0;i<10;i++)
+scanf("%d",&a[i]);
+for(i=0;i<10;i++)
+{
+if((a[i]%2)==0)
+{
+e[ec]=a[i];
+ec=ec+1;
+}
+else
+{
+o[oc]=a[i];
+oc=oc+1;
+}
+}
+for(i=0;i<ec;i++)
+printf(" even numbers are : %d\n",e[i]);
+for(i=0;i<oc;i++)
+printf(" odd numbers are : %d\n",o[i]);
+}
