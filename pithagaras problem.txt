@@ -1,0 +1,19 @@
+//PITHAGARAS TRIPLE PROGRAM
+#include<stdio.h>
+void main()
+{
+int a,b,c,d,e,f,g,h,i;
+printf("enter a b c value\n");
+scanf("%d%d%d",&a,&b,&c);
+d=(a*a)+(b*b);
+e=(c*c);
+f=(a*a)+(c*c);
+g=(b*b);
+h=(b*b)+(c*c);
+i=(a*a);
+if((d==e)||(f==g)||(h==i))
+printf("its pithagaras triple values");
+else
+printf("its not pithagars triple value");
+}
+
