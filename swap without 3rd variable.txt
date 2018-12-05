@@ -1,0 +1,13 @@
+//SWAP WITHOUT USING 3RD VARIABLE
+#include<stdio.h>
+void main()
+{
+int a,b;
+printf("enter ur swap values a b\n");
+scanf("%d%d",&a,&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("before swap a=%d b=%d",a,b);
+printf("after swap a=%d b=%d",a,b);
+}
