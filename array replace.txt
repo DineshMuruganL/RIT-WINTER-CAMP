@@ -1,0 +1,25 @@
+//ARRAY REPLACE
+#include<stdio.h>
+void main()
+{
+int a[10],b,c,d,s,i;
+printf("enter the size of array\n");
+scanf("%d",&b);
+printf("enter the element to be stored\n");
+for(i=0;i<b;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter the replaceing element\n");
+scanf("%d",&c);
+printf("enter the pisition to replace\n");
+scanf("%d",&d);
+s=a[d];
+a[d]=c;
+printf("replaced element are\n");
+for(i=0;i<b;i++)
+{
+printf("%d\n",a[i]);
+}
+}
+
